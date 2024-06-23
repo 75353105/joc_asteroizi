@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    overflow: hidden;
+    background-color: black;
+}
+#paginaDeStart{
+    text-align: center;
+    margin-top: 15%;
+}
+h1{
+    font-size: 2em;
+    color: white;
+}
+button{
+    display:block;
+    margin: 10px auto;
+    padding: 20px 40px;
+    font-size:medium;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#inputNumeJucator{
+    display:block;
+    margin:0 auto;
+    width:auto;
+    padding:10px;
+    color: blanchedalmond;
+    background-color: black;
+}
+#canvasJocAsteroids{
+    background-color: white;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity:1;
+    }
+    80%{
+        opacity:1;
+    }
+    100%{
+        transform: translateY(100vh) rotate(360deg);
+        opacity:0;
+    }
+}
+.stea{
+    position: absolute;
+    top:0;
+    width: 5px;
+    height: 5px;
+    background-color: antiquewhite;
+    animation: animate 5s linear infinite;
+}
+.text-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    color: antiquewhite;
+    font: bold;
+    font-size: 30px;
+}
+.buton-reincearca
+.buton-scoruri{
+   
+    display:block;
+    margin: 10px auto;
+    padding: 20px 40px;
+    font-size:medium;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+.title-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    color: antiquewhite;
+    font: bold;
+    font-size: 30px;
+}
+.scores-container{
+    text-align: center;
+    width: 100%;
+    margin-top: 15%;
+    color: antiquewhite;
+    font: bold;
+    font-size: 30px;
+}

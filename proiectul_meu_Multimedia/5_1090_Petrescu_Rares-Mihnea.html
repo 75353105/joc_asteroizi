@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Squash The Asteroids - Survival Game</title>
+        <style>
+            canvas{
+                display: none;
+            }
+        </style>
+        <link rel="stylesheet" href="5_1090_Petrescu_Rares-Mihnea.css">
+    </head>
+    <body>
+        <div id="paginaDeStart">
+            <h1>Squash The Asteroids - Survival Game</h1>
+            <label for="inputNumeJucator"> Introduceti un nume</label>
+            <input type="text" id="inputNumeJucator" placeholder="Numele tau">
+            <button id="butonPlay" onclick="startGame()">Incepe jocul</button>
+            <button id="butonIstoric" onclick="arataIstoricul()">Rezultatele anterioare</button>
+            
+        </div>
+        <canvas id="canvasJocAsteroids" width="1200" height="1000"></canvas>
+        <script src="5_1090_Petrescu_Rares-Mihnea.js"></script>
+    </body>
+
+</html>
